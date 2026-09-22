@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (prevent accidental commits of sensitive datasets)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.tsv
+*.h5
+*.hdf5
+data/*.csv
+data/*.xlsx
+
+# Environment variables & local configuration
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE / OS settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

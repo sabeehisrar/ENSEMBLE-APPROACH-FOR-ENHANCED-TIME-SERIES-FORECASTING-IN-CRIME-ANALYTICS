@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from pmdarima import auto_arima
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
-# Load the CSV file into a pandas DataFrame
-csv_file = 'CLEAN_DATASET_IPC.csv'
+# Load the CSV file into a pandas DataFrame (Place dataset under data/ directory)
+csv_file = 'data/CLEAN_DATASET_IPC.csv'
 df = pd.read_csv(csv_file)
 
 # Convert 'Month-Year' column to datetime format with specified format
