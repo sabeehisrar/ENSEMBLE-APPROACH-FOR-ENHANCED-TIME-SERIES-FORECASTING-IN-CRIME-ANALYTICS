@@ -1,6 +1,16 @@
 # Hybrid Time-Series Forecasting for Crime Analytics
 
-A hybrid ensemble framework combining ARIMA, Artificial Neural Networks (ANN), and Random Forest to forecast monthly crime trends with enhanced accuracy and missing data resilience, presented at the **IEEE Global AI Summit 2024, Bennett University**.
+A hybrid ensemble framework combining ARIMA, Artificial Neural Networks (ANN), and Random Forest to forecast monthly crime trends with enhanced accuracy and missing data resilience.
+
+## Publication
+This work was presented and published at the **2024 International Conference on Artificial Intelligence and Emerging Technology (Global AI Summit)**, Bennett University:
+
+> **Title**: *A Synergistic Ensemble Approach for Enhanced Time Series Forecasting in Crime Analytics*  
+> **Authors**: Reenu Rani, Rohan Mehta, Sabeeh Israr, Umar Tamboli, Rohith Murugan, Sanvi S. Chavan  
+> **Publisher**: IEEE  
+> **DOI / Link**: [10.1109/globalaisummit62156.2024.10947957](https://doi.org/10.1109/globalaisummit62156.2024.10947957)
+
+---
 
 ## Problem
 Accurate time-series forecasting in law enforcement is often impaired by missing data, non-linear trend fluctuations, and crime rate volatility. Standard statistical models struggle with non-linear patterns, while standalone neural networks are susceptible to overfitting on small or incomplete historical datasets. This project addresses these limitations by leveraging a multi-stage stacked ensemble architecture.
